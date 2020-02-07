@@ -2,9 +2,22 @@
 # clickyGame
 # Lisa Michael 
 
-Photo credits: ID 139193430
+Photo credits: 
+ID 139193430
 ID 155167961 © Zeytun Images | Dreamstime.com
 By Asef-m-m - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=78501326
+
+petro 4 and 5: https://www.atlasobscura.com/places/crow-canyon-petroglyphs
+petro 6 : https://geology.com/articles/petroglyphs/more-petroglyphs.shtml
+petro 7: https://www.moon.com/travel/arts-culture/rock-art-arizona/
+petro 8 : https://www.turnto23.com/news/local-news/officials-offering-up-to-1-000-to-help-them-locate-stolen-petroglyph
+
+petro 8: https://www.santafenewmexican.com/pasatiempo/art/rocks-of-ages-the-mesa-prieta-petroglyph-project/article_ee9ca2a4-433d-5b31-8086-fa4d4d7d8134.html
+
+petro 9 : https://www.desertsolitude.com/rock-art/
+petro 10: https://geology.com/articles/petroglyphs.shtml
+petro 11: https://www.archaeologicalconservancy.org/conservancy-protects-25-acre-addition-wells-petroglyph-preserve/
+petro 12: http://vancouverisland.com/things-to-do-and-see/attractions/petroglyphs/
 
 Week 19 Clicky Game
 
