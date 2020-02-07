@@ -1,7 +1,7 @@
 import React from "react";
-import "./style.css";
+// import "./style.css";
 
-function BBunch(props) {
+function Petroglyph(props) {
   return (
     <div className="card">
       <div className="img-container">
@@ -27,4 +27,4 @@ function BBunch(props) {
   );
 }
 
-export default FriendCard;
+export default Petroglyph;
