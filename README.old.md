@@ -2,6 +2,10 @@
 # clickyGame
 # Lisa Michael 
 
+Photo credits: ID 139193430
+ID 155167961 © Zeytun Images | Dreamstime.com
+By Asef-m-m - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=78501326
+
 Week 19 Clicky Game
 
 Instructions
