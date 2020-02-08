@@ -9,8 +9,9 @@ import './App.css';
 function App() {
   return (
     <div>
+       <Navbar />
       <Header />
-      <Navbar />
+    
       {/* <Card /> */}
       {/* <Card /> */}
       {/* <Card /> */}
