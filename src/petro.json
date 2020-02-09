@@ -2,12 +2,12 @@
    {
       "id": 1,
    "name": "petroglyph1",
-   "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Golpayegan.petroglyphs0101.jpg"
+   "image": "https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph1.jpg"
    },
    {
       "id": 2,
    "name": "petroglyph2",
-   "image": "https://ewscripps.brightspotcdn.com/dims4/default/4005635/2147483647/strip/true/crop/960x540+0+61/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2Fba%2F63%2F4b2616774454ad0a50035bc1e502%2F65268939-2554441824580476-7244891748474814464-n.jpg"
+   "image": "https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph2.jpg"
    }, 
    {"id": "3" ,
       "name": "petroglyph3",
