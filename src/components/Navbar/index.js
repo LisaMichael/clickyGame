@@ -4,6 +4,7 @@ import "./style.css";
 class Navbar extends Component {
   render() {
     return (
+        <div>
       <nav className="navbar navbar-default navbar-fixed-top">
          <ul>
           <li className="itemLeft">Clicky Game</li>
@@ -12,6 +13,7 @@ class Navbar extends Component {
           <li className="itemRight"></li>
         </ul>
       </nav>
+      </div>
     );
   }
 }
