@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from './logo.svg';
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 // import Card from "./components/Card";
 import Petrocard from "./components/Petrocard";
 import './App.css';
@@ -14,25 +14,22 @@ class App extends Component {
   state = {
     petro
 
-    // can also write 
-    // constructor(props) { 
-    //  super(props)
   }
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  // Map over this.state.friends and render a PetroCard component for each Petroglyph object
   render() {
     return (
+     
       <Wrapper>
         <Title>Petroglyphs</Title>
         {this.state.petro.map(petro => (
           <Petrocard
-            // removeFriend={this.removeFriend}
+            
             id={petro.id}
             key={petro.id}
             name={petro.name}
             image={petro.image}
-            // occupation={petro.occupation}
-            // location={petro.location}
+            
           />
         ))}
       </Wrapper>
