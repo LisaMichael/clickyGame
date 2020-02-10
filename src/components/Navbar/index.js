@@ -10,7 +10,7 @@ class Navbar extends Component {
           <li className="itemLeft">Clicky Game</li>
           <li className="itemCenter">Click an image to begin!</li>
           <li className="itemRight">Score: {this.props.score}</li>
-          <li className="itemRight"></li>
+          <li className="itemRight">Top Score: {this.props.topscore}</li>
         </ul>
       </nav>
       </div>
