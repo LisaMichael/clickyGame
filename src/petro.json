@@ -2,52 +2,52 @@
    {
       "id": 1,
    "name": "petroglyph1",
-   "image": "https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph1.jpg"
+   "image": "petroglyph1.jpg"
    },
    {
       "id": 2,
    "name": "petroglyph2",
-   "image": "https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph2.jpg"
+   "image": "petroglyph2.jpg"
    }, 
    {"id": "3" ,
       "name": "petroglyph3",
-"image":"https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph3.jpg"
+"image":"petroglyph3.jpg"
    },
    {"id": "4" ,
       "name": "petroglyph4",
-"image":"https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph4.jpg"
+"image":"petroglyph4.jpg"
    },
    {"id": "5" ,
       "name": "petroglyph5",
-"image":"https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph5.jpg"
+"image":"petroglyph5.jpg"
    },
    {"id": "6" ,
       "name": "petroglyph6",
-"image":"https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph6.jpg"
+"image":"petroglyph6.jpg"
    },
    {"id": "7" ,
       "name": "petroglyph7",
-"image":"https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph7.jpg"
+"image":"petroglyph7.jpg"
    },
    {"id": "8" ,
       "name": "petroglyph8",
-"image":"https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph8.jpg"
+"image":"petroglyph8.jpg"
    },
    {"id": "9" ,
       "name": "petroglyph9",
-"image":"https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph9.jpg"
+"image":"petroglyph9.jpg"
    },
    {"id": "10" ,
       "name": "petroglyph10",
-"image":"https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph10.jpg"
+"image":"petroglyph10.jpg"
    },
    {"id": "11" ,
       "name": "petroglyph11",
-"image":"https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph11.jpg"
+"image":"petroglyph11.jpg"
    },
    {"id": "12" ,
       "name": "petroglyph12",
-"image":"https://raw.githubusercontent.com/LisaMichael/clickyGame/master/public/images/petroglyph12.jpg"
+"image":"petroglyph12.jpg"
    }
 
 ]
