@@ -1,18 +1,17 @@
 import React from "react";
 import "./style.css";
 
-function Petrocard(props) {
-  return (
-    <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
-     
-      {/* <span onClick={() => props.removePetroglyph(props.id)} className="remove">
-        𝘅
-      </span> */}
+
+
+const Petrocard = props => (
+  <div className="card" onClick={props.imageClick}>
+    <div className="img-container">
+      <img alt={props.image.replace(".jpg", "")} src={require( props.image)} width="150" height="100" />
     </div>
-  );
-}
+  </div>
+);
+
+
+
 
 export default Petrocard;
