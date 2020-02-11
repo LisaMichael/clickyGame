@@ -7,6 +7,8 @@
   width: 200px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .card > .img-container {
@@ -19,7 +21,5 @@
 .card > .img-container > img {
   width: 100%
 }
-
-
 
 
