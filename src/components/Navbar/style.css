@@ -26,13 +26,12 @@ body {
 }*/
 
 
-
-
-
 ul {
+  padding-top: 10px;
+  scroll-padding-bottom: 10px;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  
   overflow: hidden;
   background-color: rgb(58, 2, 212);
   position: fixed;
@@ -57,23 +56,23 @@ li {
 */
 body {
 color: #ffffff;
-font-size: 40px;
+font-size: 30px;
 
 }
 
 .itemLeft {
 margin-left: 50px;
-font-family: sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 font-weight: 600;
 }
 
 
 .itemRight1 {
-padding-left: 140px;
+padding-left: 130px;
 
 }
 .itemRight2 {
-  padding-left: 40px;
+  padding-left: 20px;
   
   }
 

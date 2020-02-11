@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import './App.css';
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header"
-import Petrocard from "./components/Petrocard";
+import Petrocard from "./components/Petrocard/Petrocard";
 import petro from "./petro.json"
-import Title from "./components/Title";
+// import Title from "./components/Title";
 import Wrapper from "./components/Wrapper";
 
 class App extends Component {
@@ -13,103 +13,106 @@ class App extends Component {
     petro,
     clickedPetro: [],
     score: 0,
-    highscore: 0
-
+    status: "Click an image to begin!",
+    topscore: 1
   };
 
-  // function for when you click on an image 
 
 
-    // Filter this.state.friends for friends with an id not equal to the id being removed
+  // function for when you click on an image event
+  imageClick = event => {
+    const currentPetroglyphs = event.target.alt;
+    const imagesAlreadyClicked =
+      this.state.clickedPetro.indexOf(currentPetroglyphs) > -1;
 
     // when an image is clicked , I need to check the clickedPetro arry for id of the image clicked. 
 
+    
+    // if already clicked, set score to zero, scramble images,  
+    //reset already clicked array 
+    if (imagesAlreadyClicked) {
+      this.setState({
+        petro: this.state.petro.sort(function (a, b) {
+          return 0.5 - Math.random();
+        }),
+        clickedPetro: [],
+        score: 0,
+        status: 'You guessed Incorrectly!'
+      });
 
 
-    // if the image has already been clicked, set score to 0. Game over 
 
+    } else {
 
-    // if the image has not been clicked , I need to: 
+      // if the image has not been clicked before , I need to: 
 
-    //incrment the score by  1 
-
-    //add id to the clickedPetro(glyph) array 
-    // check to see if the score exceeds the high score 
-    //scramble the images 
-
-    // if the score = 12, the user wins, display message (not in hw specs)
-
-    imageClick = event => {
-      const currentPetroglyphs = event.target.alt;
-      const imagesAlreadyClicked =
-        this.state.clickedPetro.indexOf(currentPetroglyphs) > -1;
-
-
-      if (imagesAlreadyClicked) {
-        this.setState({
+      //add id to the clickedPetro(glyph) array 
+      //scramble the images 
+      // check to see if the score exceeds the high score -NEED WORK
+      this.setState(
+        {
           petro: this.state.petro.sort(function (a, b) {
             return 0.5 - Math.random();
           }),
-          clickedPetro: [],
-          score: 0
-        });
-        alert("Better luck next time! Try again?");
+          clickedPetro: this.state.clickedPetro.concat(
+            currentPetroglyphs
+          ),
+          status: "You guessed Correctly!",
+          score: this.state.score + 1,
+          
 
+        },
 
-      } else {
-        this.setState(
-          {
-            petro: this.state.petro.sort(function (a, b) {
-              return 0.5 - Math.random();
-            }),
-            clickedPetro: this.state.clickedPetro.concat(
-              currentPetroglyphs
-            ),
-            score: this.state.score + 1
-          },
+        () => {
 
-          () => {
-            if (this.state.score === 12) {
-              alert("Yay! You Win!");
-              this.setState({
-                petro: this.state.petro.sort(function (a, b) {
-                  return 0.5 - Math.random();
-                }),
-                clickedPetro: [],
-                score: 0
-              });
-            }
+          // IF SCORE STATE =12 YOU WIN
+          if (this.state.score === 12) {
+            alert("Yay! You Win!");
+            this.setState({
+              petro: this.state.petro.sort(function (a, b) {
+                return 0.5 - Math.random();
+              }),
+              clickedPetro: [],
+              score: 0,
+              status: 'AWESOME! YOUR A WINNER!'
+            });
           }
-        );
-      }
-    };
+        }
+      );
+    }
+  };
 
 
-  
+
 
   // Map over this.state.friends and render a PetroCard component for each Petroglyph object
   render() {
     return (
 
+      <div>
+        <Navbar
+          status={this.state.status}
+          score={this.state.score}
+topscore = {this.status.topscore}
+        />
 
-      <Wrapper>
-        <Navbar></Navbar>
-        <Title></Title>
-        <Header></Header>
+        <Header />
+        <Wrapper>
+          {this.state.petro.map(petro => (
+            <Petrocard
+              imageClick={this.imageClick}
+              id={petro.id}
+              key={petro.id}
+              image={petro.image}
+            />
+          ))}
+        </Wrapper>
 
-        {this.state.petro.map(petro => (
-          <Petrocard
+      </div>
 
-            id={petro.id}
-            key={petro.id}
-            name={petro.name}
-            image={petro.image}
-
-          />
-        ))}
-      </Wrapper>
     );
   }
+
 
 
 }
