@@ -3,7 +3,7 @@
 # Lisa Michael 
 
 Photo credits: 
-Petro 1: ID 139193430
+Petro 1: ID 139193430, 
 Petro 2: ID 155167961 © Zeytun Images | Dreamstime.com
 Petro3: By Asef-m-m - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=78501326
 
