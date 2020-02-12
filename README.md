@@ -1,68 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Homework WK 19 
+# clickyGame
+# Lisa Michael 
 
-## Available Scripts
+Photo credits: 
+Petro 1: ID 139193430
+Petro 2: ID 155167961 © Zeytun Images | Dreamstime.com
+Petro3: By Asef-m-m - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=78501326
 
-In the project directory, you can run:
+Petro 4 and 5: https://www.atlasobscura.com/places/crow-canyon-petroglyphs
+Petro 6 : https://geology.com/articles/petroglyphs/more-petroglyphs.shtml
+Petro 7: https://www.moon.com/travel/arts-culture/rock-art-arizona/
+Petro 8 : https://www.turnto23.com/news/local-news/officials-offering-up-to-1-000-to-help-them-locate-stolen-petroglyph
 
-### `npm start`
+Petro 8: https://www.santafenewmexican.com/pasatiempo/art/rocks-of-ages-the-mesa-prieta-petroglyph-project/article_ee9ca2a4-433d-5b31-8086-fa4d4d7d8134.html
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Petro 9 : https://www.desertsolitude.com/rock-art/
+Petro 10: https://geology.com/articles/petroglyphs.shtml
+Petro 11: https://www.archaeologicalconservancy.org/conservancy-protects-25-acre-addition-wells-petroglyph-preserve/
+petro 12: http://vancouverisland.com/things-to-do-and-see/attractions/petroglyphs/
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Week 19 Clicky Game
 
-### `npm test`
+Instructions
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This weeks Homework assignment, I created a new React application using Create React App.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application renders 12 images to the screen, which the user clicks on.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Once the user's score is reset after an incorrect guess, the game should restart.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

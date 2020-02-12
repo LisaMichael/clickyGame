@@ -26,6 +26,10 @@ class App extends Component {
     const imagesAlreadyClicked =
       this.state.clickedPetro.indexOf(currentPetroglyphs) > -1;
 
+    if (this.state.score > this.state.topscore) {
+      this.state.topscore = this.state.score;
+    }
+
     // when an image is clicked , I need to check the clickedPetro arry for id of the image clicked. 
 
 
@@ -38,7 +42,6 @@ class App extends Component {
         }),
         clickedPetro: [],
         score: 0,
-        topscore: 0,
         status: 'You guessed Incorrectly!'
       });
 
@@ -52,9 +55,7 @@ class App extends Component {
       //scramble the images 
       // check to see if the score exceeds the high score -NEED WORK
 
-      if(this.state.score > this.state.topscore){
-        this.state.topscore = this.state.score;
-      }
+      
 
       this.setState(
         {
@@ -66,18 +67,19 @@ class App extends Component {
           ),
           status: "You guessed Correctly!",
           score: this.state.score + 1,
+          topscore: this.state.topscore
 
-        topscore: this.state.topscore +1,
- 
         },
 
 
 
         () => {
 
+
+
           // IF SCORE STATE =12 YOU WIN
           if (this.state.score === 12) {
-            
+
             this.setState({
               petro: this.state.petro.sort(function (a, b) {
                 return 0.5 - Math.random();
@@ -103,7 +105,7 @@ class App extends Component {
         <Navbar
           status={this.state.status}
           score={this.state.score}
-topscore={this.state.topscore}
+          topscore={this.state.topscore}
         />
 
         <Header />
